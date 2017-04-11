@@ -1,0 +1,9 @@
+<h3>Posts:</h3>
+<% @articles.each do |article| %>
+	<p>
+		<%= article.title %>
+	</p>
+	<p>
+		<%= article.text %>
+	</p>
+<% end %>
