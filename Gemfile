@@ -6,15 +6,10 @@ git_source(:github) do |repo_name|
 end
 
 
-#Gem for tests
+#Gems for test
 gem "factory_girl_rails", "~> 4.0"
-
-
-
-
-
-
-
+gem "capybara"
+gem "shoulda-matchers"
 
 
 # Bundle edge Rails instead: get 'rails', github: 'rails/rails'
